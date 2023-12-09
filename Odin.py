@@ -41,7 +41,7 @@ def forca_bruta_recursiva(chars, senha, len_senha, comb_anterior=''):
 def main():
     chars = gerar_caracteres()
     # <- Coloque a senha que deseja que o software quebre aqui.
-    senha = 'lol9@'
+    senha = 'pass'
     print(forca_bruta(chars, senha, len_senha=4))
     print('*' * 60 + '\n')
     print(forca_bruta_recursiva(chars, senha, len(senha)))
