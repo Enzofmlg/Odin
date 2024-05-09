@@ -1,5 +1,4 @@
 # Odin - | Brute Force |
-# code by ZNO
 from itertools import product
 
 
